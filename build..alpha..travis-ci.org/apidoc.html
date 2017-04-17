@@ -1,0 +1,659 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/RRutsche/react-parallax#readme"
+
+    >react-parallax (v1.2.6)</a>
+</h1>
+<h4>A React Component for parallax effect working in client-side and server-side rendering environment</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-parallax">module react-parallax</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Background">
+            function <span class="apidocSignatureSpan">react-parallax.</span>Background
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Parallax">
+            function <span class="apidocSignatureSpan">react-parallax.</span>Parallax
+            <span class="apidocSignatureSpan">(e)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.karma_conf">
+            function <span class="apidocSignatureSpan">react-parallax.</span>karma_conf
+            <span class="apidocSignatureSpan">(config)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-parallax.</span>Background.propTypes</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-parallax.</span>Parallax.propTypes</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-parallax.Background">module react-parallax.Background</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Background.Background">
+            function <span class="apidocSignatureSpan">react-parallax.</span>Background
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-parallax.Background.</span>defaultProps</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-parallax.Background.</span>propTypes</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-parallax.Background.propTypes">module react-parallax.Background.propTypes</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Background.propTypes.children">
+            function <span class="apidocSignatureSpan">react-parallax.Background.propTypes.</span>children
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Background.propTypes.className">
+            function <span class="apidocSignatureSpan">react-parallax.Background.propTypes.</span>className
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-parallax.Parallax">module react-parallax.Parallax</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Parallax.Parallax">
+            function <span class="apidocSignatureSpan">react-parallax.</span>Parallax
+            <span class="apidocSignatureSpan">(e)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-parallax.Parallax.</span>defaultProps</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-parallax.Parallax.</span>propTypes</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-parallax.Parallax.propTypes">module react-parallax.Parallax.propTypes</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Parallax.propTypes.bgHeight">
+            function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>bgHeight
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Parallax.propTypes.bgImage">
+            function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>bgImage
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Parallax.propTypes.bgStyle">
+            function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>bgStyle
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Parallax.propTypes.bgWidth">
+            function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>bgWidth
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Parallax.propTypes.blur">
+            function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>blur
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Parallax.propTypes.className">
+            function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>className
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.Parallax.propTypes.strength">
+            function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>strength
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-parallax.karma_conf">module react-parallax.karma_conf</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-parallax.karma_conf.karma_conf">
+            function <span class="apidocSignatureSpan">react-parallax.</span>karma_conf
+            <span class="apidocSignatureSpan">(config)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-parallax" id="apidoc.module.react-parallax">module react-parallax</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Background" id="apidoc.element.react-parallax.Background">
+        function <span class="apidocSignatureSpan">react-parallax.</span>Background
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function t(){return o(this,t),r(this,(t.__proto__||Object.getPrototypeOf(t)).apply(this,arguments))}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Parallax" id="apidoc.element.react-parallax.Parallax">
+        function <span class="apidocSignatureSpan">react-parallax.</span>Parallax
+        <span class="apidocSignatureSpan">(e)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function t(e){o(this,t);var n=r(this,(t.__proto__||Object.getPrototypeOf(t)).call(this,e));return n.state={childStyle:{position:&#x22;
+relative&#x22;}},n.canUseDOM=(0,h.canUseDOM)(),n.ReactDOM=d.default.findDOMNode?d.default:u.default,n.node=null,n.content=null,n.splitChildren
+=n.getSplitChildren(e),n.windowHeight=(0,h.getWindowHeight)(n.canUseDOM),n.timestamp=Date.now(),n.dynamicBlur=!(!e.blur||void 0===
+e.blur.min||void 0===e.blur.max),n.autobind(),n}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.karma_conf" id="apidoc.element.react-parallax.karma_conf">
+        function <span class="apidocSignatureSpan">react-parallax.</span>karma_conf
+        <span class="apidocSignatureSpan">(config)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">karma_conf = function (config) {
+    config.set({
+
+        // base path that will be used to resolve all patterns (eg. files, exclude)
+        basePath: &#x27;&#x27;,
+
+        // How long does Karma wait for a browser to reconnect (in ms).
+        browserDisconnectTimeout: 31000,
+
+		// How long will Karma wait for a message from a browser before disconnecting from it (in ms).
+		browserNoActivityTimeout: 31000,
+
+        // frameworks to use
+        // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
+        frameworks: [&#x27;jasmine&#x27;],
+
+
+        // list of files / patterns to load in the browser
+        files: [
+            &#x27;node_modules/es5-shim/es5-shim.js&#x27;,
+            &#x27;node_modules/es5-shim/es5-sham.js&#x27;,
+            &#x27;test/test.built.js&#x27;
+        ],
+
+
+        // list of files to exclude
+		exclude: [],
+
+
+        // preprocess matching files before serving them to the browser
+        // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
+		preprocessors: {},
+
+
+        // test results reporter to use
+        // possible values: &#x27;dots&#x27;, &#x27;progress&#x27;
+        // available reporters: https://npmjs.org/browse/keyword/karma-reporter
+        reporters: [&#x27;progress&#x27;],
+
+
+        // web server port
+        port: 9876,
+
+
+        // enable / disable colors in the output (reporters and logs)
+        colors: true,
+
+
+        // level of logging
+        // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
+        logLevel: config.LOG_INFO,
+
+
+        // enable / disable watching file and executing tests whenever any file changes
+        autoWatch: true,
+
+
+        // start these browsers
+        // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
+		browsers: [&#x27;Chrome_unsecure&#x27;],
+
+
+        // Continuous Integration mode
+        // if true, Karma captures browsers, runs the tests and exits
+        singleRun: true,
+
+
+        // Customized launcher
+        customLaunchers: {
+            Chrome_unsecure: {
+                base: &#x27;Chrome&#x27;,
+				flags: [&#x27;--disable-web-security&#x27;]
+			}
+		}
+
+    }); //config.set
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-parallax.Background" id="apidoc.module.react-parallax.Background">module react-parallax.Background</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Background.Background" id="apidoc.element.react-parallax.Background.Background">
+        function <span class="apidocSignatureSpan">react-parallax.</span>Background
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function t(){return o(this,t),r(this,(t.__proto__||Object.getPrototypeOf(t)).apply(this,arguments))}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-parallax.Background.propTypes" id="apidoc.module.react-parallax.Background.propTypes">module react-parallax.Background.propTypes</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Background.propTypes.children" id="apidoc.element.react-parallax.Background.propTypes.children">
+        function <span class="apidocSignatureSpan">react-parallax.Background.propTypes.</span>children
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">children = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Background.propTypes.className" id="apidoc.element.react-parallax.Background.propTypes.className">
+        function <span class="apidocSignatureSpan">react-parallax.Background.propTypes.</span>className
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">className = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-parallax.Parallax" id="apidoc.module.react-parallax.Parallax">module react-parallax.Parallax</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Parallax.Parallax" id="apidoc.element.react-parallax.Parallax.Parallax">
+        function <span class="apidocSignatureSpan">react-parallax.</span>Parallax
+        <span class="apidocSignatureSpan">(e)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function t(e){o(this,t);var n=r(this,(t.__proto__||Object.getPrototypeOf(t)).call(this,e));return n.state={childStyle:{position:&#x22;
+relative&#x22;}},n.canUseDOM=(0,h.canUseDOM)(),n.ReactDOM=d.default.findDOMNode?d.default:u.default,n.node=null,n.content=null,n.splitChildren
+=n.getSplitChildren(e),n.windowHeight=(0,h.getWindowHeight)(n.canUseDOM),n.timestamp=Date.now(),n.dynamicBlur=!(!e.blur||void 0===
+e.blur.min||void 0===e.blur.max),n.autobind(),n}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-parallax.Parallax.propTypes" id="apidoc.module.react-parallax.Parallax.propTypes">module react-parallax.Parallax.propTypes</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Parallax.propTypes.bgHeight" id="apidoc.element.react-parallax.Parallax.propTypes.bgHeight">
+        function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>bgHeight
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bgHeight = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Parallax.propTypes.bgImage" id="apidoc.element.react-parallax.Parallax.propTypes.bgImage">
+        function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>bgImage
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bgImage = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Parallax.propTypes.bgStyle" id="apidoc.element.react-parallax.Parallax.propTypes.bgStyle">
+        function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>bgStyle
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bgStyle = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Parallax.propTypes.bgWidth" id="apidoc.element.react-parallax.Parallax.propTypes.bgWidth">
+        function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>bgWidth
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bgWidth = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Parallax.propTypes.blur" id="apidoc.element.react-parallax.Parallax.propTypes.blur">
+        function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>blur
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">blur = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Parallax.propTypes.className" id="apidoc.element.react-parallax.Parallax.propTypes.className">
+        function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>className
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">className = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.Parallax.propTypes.strength" id="apidoc.element.react-parallax.Parallax.propTypes.strength">
+        function <span class="apidocSignatureSpan">react-parallax.Parallax.propTypes.</span>strength
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">strength = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-parallax.karma_conf" id="apidoc.module.react-parallax.karma_conf">module react-parallax.karma_conf</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-parallax.karma_conf.karma_conf" id="apidoc.element.react-parallax.karma_conf.karma_conf">
+        function <span class="apidocSignatureSpan">react-parallax.</span>karma_conf
+        <span class="apidocSignatureSpan">(config)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">karma_conf = function (config) {
+    config.set({
+
+        // base path that will be used to resolve all patterns (eg. files, exclude)
+        basePath: &#x27;&#x27;,
+
+        // How long does Karma wait for a browser to reconnect (in ms).
+        browserDisconnectTimeout: 31000,
+
+		// How long will Karma wait for a message from a browser before disconnecting from it (in ms).
+		browserNoActivityTimeout: 31000,
+
+        // frameworks to use
+        // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
+        frameworks: [&#x27;jasmine&#x27;],
+
+
+        // list of files / patterns to load in the browser
+        files: [
+            &#x27;node_modules/es5-shim/es5-shim.js&#x27;,
+            &#x27;node_modules/es5-shim/es5-sham.js&#x27;,
+            &#x27;test/test.built.js&#x27;
+        ],
+
+
+        // list of files to exclude
+		exclude: [],
+
+
+        // preprocess matching files before serving them to the browser
+        // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
+		preprocessors: {},
+
+
+        // test results reporter to use
+        // possible values: &#x27;dots&#x27;, &#x27;progress&#x27;
+        // available reporters: https://npmjs.org/browse/keyword/karma-reporter
+        reporters: [&#x27;progress&#x27;],
+
+
+        // web server port
+        port: 9876,
+
+
+        // enable / disable colors in the output (reporters and logs)
+        colors: true,
+
+
+        // level of logging
+        // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
+        logLevel: config.LOG_INFO,
+
+
+        // enable / disable watching file and executing tests whenever any file changes
+        autoWatch: true,
+
+
+        // start these browsers
+        // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
+		browsers: [&#x27;Chrome_unsecure&#x27;],
+
+
+        // Continuous Integration mode
+        // if true, Karma captures browsers, runs the tests and exits
+        singleRun: true,
+
+
+        // Customized launcher
+        customLaunchers: {
+            Chrome_unsecure: {
+                base: &#x27;Chrome&#x27;,
+				flags: [&#x27;--disable-web-security&#x27;]
+			}
+		}
+
+    }); //config.set
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
