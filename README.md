@@ -1,6 +1,6 @@
 # npmdoc-react-parallax
 
-#### api documentation for  [react-parallax (v1.2.7)](https://github.com/RRutsche/react-parallax#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-parallax.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-parallax) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-parallax.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-parallax)
+#### basic api documentation for  [react-parallax (v1.3.0)](https://github.com/RRutsche/react-parallax#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-parallax.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-parallax) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-parallax.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-parallax)
 
 #### A React Component for parallax effect working in client-side and server-side rendering environment
 
@@ -72,10 +72,10 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "686a39156b9f9dc7a85f8af45c6e5a445b24deee",
-        "tarball": "https://registry.npmjs.org/react-parallax/-/react-parallax-1.2.7.tgz"
+        "shasum": "cc77584eae6561004e7b4ed11bfb9541b017fe82",
+        "tarball": "https://registry.npmjs.org/react-parallax/-/react-parallax-1.3.0.tgz"
     },
-    "gitHead": "7c575652760d0c074f17c587b7b4029a27ede5d2",
+    "gitHead": "38f5bcf881fc452e11b02d6025f12e6df45519d3",
     "homepage": "https://github.com/RRutsche/react-parallax#readme",
     "keywords": [
         "react",
@@ -106,7 +106,8 @@
         "dist": "NODE_ENV=production && webpack -p --progress --config webpack.config.build.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.2.7"
+    "version": "1.3.0",
+    "bin": {}
 }
 ```
 
